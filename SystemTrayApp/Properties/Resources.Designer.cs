@@ -19,7 +19,7 @@ namespace SystemTrayApp.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -66,6 +66,25 @@ namespace SystemTrayApp.Properties {
         internal static System.Drawing.Icon Default {
             get {
                 object obj = ResourceManager.GetObject("Default", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream mixkit_modern_technology_select_3124 {
+            get {
+                return ResourceManager.GetStream("mixkit-modern-technology-select-3124", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Yohproject_Cute_Clock {
+            get {
+                object obj = ResourceManager.GetObject("Yohproject-Cute-Clock", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
